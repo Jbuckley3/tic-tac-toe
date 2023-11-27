@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+h1 {
+  text-align: center;
+}
+
 :root {
   --cell-size: 100px;
   --mark-size: calc(var(--cell-size) * .9);
@@ -9,6 +13,7 @@
 
 body {
   margin: 0;
+  background-color: darkseagreen;
 }
 
 .board {
